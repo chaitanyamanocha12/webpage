@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us | Metal Man University</title>
+    <link rel = "stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body id="body">
+    <header id = "banner">
+        <img id="img-logo" src="img/metalman-logo.png" alt="logo">
+        <button id="mode">Dark/Light Mode</button>
+        <form action="search.php" method="get" id="search-form">
+            
+            <input type="text" id="search" name="search-button" placeholder="Search">
+            <input type="button" id="search-button" name= "button" value="Search">
+
+        </form>
+    </header>
+    <nav id = "navigation">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+    
+  
+    <section id="contact-forms">
+        <h1 id= "contact">Contact Us</h1>
+        <form action="submit_form.php" method="post" id="contact-form">
+            <label for="f-name">First Name:</label>
+            <input type="text" id="f-name" name="f-name" required><br>
+            <label for="l-name">Last Name:</label>
+            <input type="text" id="l-name" name="l-name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message Subject:</label>
+            <input type="text" id="message" name="message" required><br>
+            <label for ="message1" id="text-area-message">Your Message:</label>
+            <textarea name="your-message" id="message1"></textarea><br>
+            <input type="button" value="Submit" id="submit">
+            <input type="button" value="Clear" id="clear">
+
+        </form>
+        
+
+
+    </section>
+    <aside id="Contact-links">
+        <h3>Contact Links</h3>
+        <ul>
+            
+            <li><a href="#">Campus Map</a></li>
+            <li><a href="#">International-Students contact</a></li>
+            <li><a href="#">Co-op Office Contact</a></li>
+            <li><a href="#">Faculty Contacts</a></li>
+            
+        </ul>
+    </aside>
+    <section id="questions">
+        <h3>Contact for Questions</h3>
+        <ul>
+            <li>Student advisor: <a href="#" class="ques"> sadvisor@.edu</a></li>
+            <li>Housing: <a href="#" class="ques"> residence@.edu</a></li>
+            <li>Technical Support:<a href="#" class="ques"> techsupport@.edu</a></li>
+            <li>Sports:<a href="#" class="ques"> sports@.edu</a></li>
+            <li>International Centre:<a href="#" class="ques"> icentre@.edu</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <address id = "address-footer">
+            Metal Man University<br>
+            123 University Ave<br>
+            City, State 12345<br>
+            Email: <a href="mailto:info@universityname.edu">info@metalman.edu</a><br>
+            Phone: (123) 456-7890
+        </address>
+        <nav id = "footer-nav">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Privacy Statement</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2023 Metal Man University</p>
+    </footer>
+
+</body>
+</html>
